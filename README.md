@@ -32,8 +32,6 @@ Agora é só usar na sua planilha, exemplo:
 ```
 Você pode substituir o "Ultimo" por esses valores:
  
-Ultimo - Valor atual da ação ( Ultimo valor ) 
-
 Abertura - Preço da abertura
 
 Minimo - Mínimo valor  no dia
