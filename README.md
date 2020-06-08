@@ -11,7 +11,7 @@ e cole esse código a seguir:
 function XMLBMFBOVESPA(ticker, atribute) {
   var url = 'http://bvmf.bmfbovespa.com.br/cotacoes2000/FormConsultaCotacoes.asp?strListaCodigos=' + ticker;
   var xml = UrlFetchApp.fetch(url).getContentText();
-  var document = XmlService. parse(xml);
+  var document = XmlService.parse(xml);
   var root = document.getRootElement();
   
   var entries = new Array();
