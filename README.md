@@ -35,8 +35,7 @@ function XMLBMFBOVESPA(ticker, atribute) {
     return parseFloat(value.replace(",", "."))
 }
 ```
-Obs: Na linha 25 está o número 1200 (segundos) define quanto tempo ficará o cache, recomendo deixar 1200 (20 minutos) para não sobrecarregarmos o servidor do site.
-
+Obs: Na linha *cache.put(keyCache, xml, 1200);* está o número 1200 (segundos) define quanto tempo ficará o cache, recomendo deixar 1200 (20 minutos) para não sobrecarregarmos o servidor do site.
 
 Agora é só usar na sua planilha, exemplo:
 
