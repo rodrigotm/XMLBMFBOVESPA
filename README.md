@@ -3,13 +3,13 @@
 </p>
 
 # XMLBMFBOVESPA
-Formula personalizada para Google Sheets usando Google Script para buscar valores das ações e fundos imobiliários
+Formula personalizada para Google Sheets usando Google App Script para buscar valores das ações e fundos imobiliários
 
-Vá na aba Ferramentas > Editor de Script
+Em sua planilha, clique na aba do menu superior *Ferramentas* e depois em  *Editor de Script*
 
 Após abrir:
 
-Arquivo > Novo
+Crie um novo, em *Arquivo* > *Novo*
 e cole esse código a seguir:
 ```js
 function XMLBMFBOVESPA(ticker, atribute) {    
