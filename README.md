@@ -43,7 +43,7 @@ Agora é só usar na sua planilha, exemplo:
 =XMLBMFBOVESPA(A12;"Ultimo")
 ```
 ```
-=XMLBMFBOVESPA("PETR4;"Ultimo")
+=XMLBMFBOVESPA("PETR4";"Ultimo")
 ```
 Você pode substituir o "Ultimo" por esses valores:
  
