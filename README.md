@@ -1,4 +1,9 @@
 # XMLBMFBOVESPA
+
+<p align="center">
+  <img width="600" height="300" src="./header.png">
+</p>
+
 Formula personalizada para Google Sheets usando Google Script para buscar valores das ações e fundos imobiliários
 
 Vá na aba Ferramentas > Editor de Script
