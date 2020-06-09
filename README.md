@@ -23,7 +23,6 @@ function XMLBMFBOVESPA(ticker, atribute) {
       var url = 'http://bvmf.bmfbovespa.com.br/cotacoes2000/FormConsultaCotacoes.asp?strListaCodigos=' + ticker;
       var xml = UrlFetchApp.fetch(url).getContentText();
       cache.put(keyCache, xml, 1200); // cache for 20 minutes
-      return contents; 
     }
     
     var document = XmlService.parse(xml);
